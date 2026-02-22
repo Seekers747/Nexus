@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 .home-main {
@@ -58,6 +59,7 @@ html {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    scroll-snap-align: start;
 }
 
 .home-hero,
@@ -120,4 +122,8 @@ html {
     right: 0px;
 
     width: 100%;
+}
+
+.snap-controller {
+    scroll-snap-type: y mandatory;
 }
